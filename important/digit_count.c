@@ -89,7 +89,7 @@ int main(){
        scanf("%d",&arr[i]);
     }
     
-    int maxn=0;
+    int maxn=0;        //eikhane kaj hobe but best holo maxn=arr[0]; fist value ta dore neya
     for(int i=0; i<n; i++){
         if(arr[i]>=maxn){
             maxn=arr[i];
@@ -102,6 +102,8 @@ int main(){
     oi arry te max nubmer 6 hote hobe (zoto max hobe tar sate 1 add (maxNumber+1) kore nite 
     hobe karon toto porzonto tumar temp arry colbe)
     like arr[10]={1 2 3 4 5 0 2 3 5 6}
+         temp[6+1]={0 1 2 3 4 5 6} eikhane amake 6 o rakhte hobe tai +1
+         temp[6+1]={0 0 0 0 0 0 0} for cliye 0 kore nibo 
     */
 
     // int temp[maxn+1]={0}; ///no tossible because => only fixed size array → {0} দিয়ে initialize 
