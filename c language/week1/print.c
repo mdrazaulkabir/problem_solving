@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+    int a;
+    long long b;
+    float c;
+    char d;
+    scanf("%d %lld %f %c", &a, &b ,&c ,&d);
+    printf("%d\n%lld\n%f\n%c ", a,b,c,d);
+    return 0;
+}
